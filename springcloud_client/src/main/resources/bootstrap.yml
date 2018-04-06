@@ -1,8 +1,12 @@
+---
 spring:
   application:
-    name: springcloud_client
+    name: server_config
+  profiles:
+    active: default
   cloud:
     config:
-      uri: http://localhost:8001
+      uri: http://localhost:9000
+      enabled: true
 server:
   port: 8002

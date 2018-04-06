@@ -1,3 +1,4 @@
+---
 spring:
   cloud:
     config:
@@ -6,4 +7,4 @@ spring:
           uri: https://github.com/cengizhanozcan/microservice-spring-cloud-config
           search-paths: config_data
 server:
-  port: 8001
+  port: 9000
